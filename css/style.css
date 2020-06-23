@@ -1,0 +1,79 @@
+/*CSS Typography*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::root {
+    --mainChocolate: chocolate;
+    --mainGreen: green;
+}
+
+/*CSS Typography*/
+* {
+    margin: 0;
+}
+
+/*Utility Classes */
+:root {
+    --mainChocolate: chocolate;
+    --mainGreen: green;
+    --mainOrange: orange;
+    --mainTitle: 3rem;
+    --mainSubTitle: 2rem;
+    --mainParagraph: 1.125rem;
+    --mainTextLarge: 2rem;
+}
+
+body {
+    font-family: "Merriweather",
+        Georgia,
+}
+
+.text-default {
+    font-size: initial;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 40px 28px;
+    font-size: var(--mainTitle)
+}
+
+.title,
+h1 {
+    color: var(--mainGreen);
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.pagragraph,
+p {
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.text,
+p {
+    padding: 10px;
+    font-size: var(--mainParagraph);
+    line-height: 1.5;
+}
+
+.subtitle,
+h2 {
+    padding: 10px;
+    color: var(--mainOrange);
+    font-size: var(--mainSubTitle)
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 40px 28px;
+}
+
+.text {
+    color: var(--green)
+}
